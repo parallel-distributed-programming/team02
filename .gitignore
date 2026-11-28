@@ -1,2 +1,8 @@
 *.chat
 .ipynb_checkpoints/
+
+# only track source and problem.md in code/
+code/*
+!code/*.cc
+!code/*.h
+!code/problem.md
